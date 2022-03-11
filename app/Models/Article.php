@@ -18,11 +18,11 @@ class Article extends Model
 
     /**
      * The attributes that should be cast to native types.
-     *
+     *ssss
      * @var array
      */
     protected $casts = [
-        'id' => 'integer',
+        'id' => 'string',
         'category_id' => 'integer',
         'user_id' => 'integer',
     ];
